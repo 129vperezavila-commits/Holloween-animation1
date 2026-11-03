@@ -22,14 +22,14 @@ body{
     box-sizing: inherit;
 }
 
-#spooky{
+#Spooky{
     margin: 10% auto;
     width: 80%;
     height:80%;
     animation: floaty 2s infinite;
 }
 
-#spooky #body{
+#Spooky #body{
     position: relative; 
     margin: 50px auto 0;
     width: 180px;
@@ -39,11 +39,11 @@ body{
 }
 
 #Spooky #body:before,
-#spooky #body:after{
+#Spooky #body:after{
     content:  '';
     position: absolute;
     top: 130px;
-    disploy:inline-block;
+    display: inline-block;
     width: 36px;
     height:36px;
     border-radius: 50%;
@@ -51,16 +51,16 @@ body{
     animation: floaty .2s infinite;
 }
 
-#spooky #body:before {
+#Spooky #body:before {
     left: -18px;
 }
 
-#spooky #body:after{
+#Spooky #body:after{
     right: -18px;
 }
 
 
-#spooky #body #eyes{
+#Spooky #body #eyes{
     display: flex;
     justify-content: space-between;
     margin: 0 auto ;
@@ -70,8 +70,8 @@ body{
 }
 
 
-#spooky #body #eyes:before,
-#spooky #body #eyes:after {
+#Spooky #body #eyes:before,
+#Spooky #body #eyes:after {
     content: ' ';
     display: block;
     width: 30px;
@@ -79,7 +79,7 @@ body{
     background:#252c49;
     border-radius: 50%;
     
-#spooky #body #mouth{
+#Spooky #body #mouth{
     background: #252c49;
     margin: 25px auto 0;
     width: 60px;
@@ -87,7 +87,7 @@ body{
     border-bottom-right-radius: 30px;
 }
 }
-#spooky #body #mouth:before{
+#Spooky #body #mouth:before{
     content: '';
     display: block;
     background: #fff;
@@ -96,7 +96,7 @@ body{
     height:10px;
 }
 
-#spooky #body #feet {
+#Spooky #body #feet {
     position: absolute;
     display: flex;
     bottom: -18px;
@@ -104,9 +104,9 @@ body{
     height: 36px;
 }
 
-#spooky #body #feet > *,
-#spooky #body #feet::before,
-#spooky #body #feet::after {
+#Spooky #body #feet > *,
+#Spooky #body #feet::before,
+#Spooky #body #feet::after {
 content: '';
 width: 36px;
 height: 36px;
